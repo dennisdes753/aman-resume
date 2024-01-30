@@ -135,7 +135,7 @@ const Homepage = () => {
                               <p>
                                   KiWE is an interactive platform that offers users the chance to test their knowledge and skills through various trivia challenges. With a diverse range of topics and difficulty levels, this app is perfect for anyone looking to learn and earn while having fun.
                               </p>
-                              <NavLink to="#" className="more-about">
+                              <NavLink target="_blank" to="https://www.behance.net/gallery/189678037/Application-UIUX-Case-study" className="more-about">
                                   View Case Study
                                   <span>
                                       <svg
@@ -213,7 +213,7 @@ const Homepage = () => {
                               <p>
                                   The website provides information on their gym and different programs they've designed to help different people reach their goals
                               </p>
-                              <NavLink to="#" className="more-about">
+                              <NavLink target="_blank" to="https://www.behance.net/gallery/188110171/Phantom-Landing-Page" className="more-about">
                                   View Case Study
                                   <span>
                                       <svg
@@ -277,7 +277,7 @@ const Homepage = () => {
                               <p>
                                   Ed-tech website offer a dynamic platform with interactive courses, personalised learning paths, and cutting-edge resources. Empower students and educators alike to thrive in a digital age, fostering a future of knowledge and innovation. Join us in shaping the next generation of education!
                               </p>
-                              <NavLink to="#" className="more-about">
+                              <NavLink target="_bank" to="https://www.behance.net/gallery/173634919/Ed-tech-Website" className="more-about">
                                   View Case Study
                                   <span>
                                       <svg
