@@ -1,0 +1,82 @@
+@import '../../App.scss';
+
+footer {
+    width: 100%;
+    background: #000;
+    border-radius: 50px 50px 0 0;
+    padding: 70px;
+
+    .footer-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-links {
+            .link {
+                color: #fff;
+                display: block;
+                text-decoration: none;
+                text-align: right;
+                margin: 15px 0;
+            }
+
+            .button-common {
+                .more-about {
+                    max-width: 220px;
+                    background: #F1F2F3;
+                    padding: 7px 15px;
+                    border-radius: 75px;
+                    color: #000;
+                    text-decoration: none;
+                    display: flex;
+                    font-size: 18px;
+                    bottom: 40px;
+
+                    span {
+                        display: inline-block;
+                        margin-left: 10px;
+
+                        svg {
+                            max-width: 32px;
+                            height: 32px;
+                            fill: #000;
+                            transform: rotate(270deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #fff;
+        display: flex;
+        justify-content: space-between;
+
+        h4 {
+            color: #fff;
+            font-size: 14px;
+            margin: 20px 0;
+        }
+    }
+}
+
+@media(min-width: 320px) and (max-width: 568px){
+    footer .footer-inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .footer-bottom h4 {
+        margin: 20px 0 0;
+    }
+}

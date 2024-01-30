@@ -1,0 +1,11 @@
+export { default as TopBanner } from '../images/topnav.jpg';
+export { default as AmanPic } from '../images/aman-info.jpg';
+export { default as Work1 } from '../images/work-1.jpg';
+export { default as Work2 } from '../images/work-2.jpg';
+export { default as Work3 } from '../images/work-3.jpg';
+export { default as AboutAman } from '../images/about-aman-dog.jpg';
+export { default as AboutAmanImage1 } from '../images/imge-1.jpg';
+export { default as AboutAmanImage2 } from '../images/image-2.jpg';
+export { default as AboutAmanImage3 } from '../images/image-3.jpg';
+export { default as AboutAmanImage4 } from '../images/image-4.jpg';
+export { default as AboutAmanImage5 } from '../images/image-5.jpg';

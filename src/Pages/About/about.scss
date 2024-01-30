@@ -1,0 +1,91 @@
+@import '../../App.scss';
+
+.about_aman_sec {
+    width: 100%;
+    margin: 80px 0;
+
+    .heading-aman-sec {
+        color: #cecece;
+        font-size: 44px;
+        font-weight: 700;
+    }
+
+    .paragraph-aman-sec {
+        font-size: 32px;
+
+        span {
+            color: #4E3FEE;
+        }
+    }
+
+    .aman_with_dog {
+        width: 100%;
+        margin: 100px 0;
+
+        img {
+            width: 90%;
+        }
+
+        p {
+            font-size: 20px;
+            color: #151515;
+
+            span {
+                display: block;
+                margin: 20px 0;
+
+                b {
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .more-about {
+            width: 100%;
+            max-width: 200px;
+            background-color: #000;
+            padding: 7px 15px;
+            border-radius: 75px;
+            color: #fff;
+            text-decoration: none;
+            margin: 20px 0;
+            display: block;
+            font-size: 18px;
+
+            span {
+                display: inline-block;
+                margin-left: 10px;
+
+                svg {
+                    max-width: 32px;
+                    height: 32px;
+                    fill: #fff;
+                }
+            }
+        }
+    }
+}
+
+.aman_riding_experience{
+    width: 100%;
+    margin: 50px 0 80px;
+    .aman_heading_experice{
+        width: 100%;
+        text-align: center;
+        h4{
+            color: #CECECE;
+            font-size: 44px;
+            margin-bottom: 80px;
+        }
+    }
+    .AboutAmanImage{
+        width: 100%;
+        margin: 10px 0;
+        img{
+            width: 100%;
+            max-height: 480px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    }
+}
