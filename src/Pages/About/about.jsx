@@ -14,19 +14,19 @@ const About = () => {
             <section className="about_aman_sec">
                 <Container>
                     <Row>
-                        <Col xxl="6" md="12" xs="12">
+                        <Col xxl="6" md="6" sm="12" xs="12">
                             <h4 className="heading-aman-sec">A few words about me.</h4>
                         </Col>
-                        <Col xxl="6" md="12" xs="12">
+                      <Col xxl="6" md="6" sm="12" xs="12">
                             <p className="paragraph-aman-sec">Hello once more! I'm Aman Sharma, a <span>product designer,</span> dedicated to contributing to world betterment through my work.</p>
                         </Col>
                     </Row>
                     <div className="aman_with_dog">
                         <Row>
-                            <Col xxl="6" md="12" xs="12">
+                          <Col xxl="6" md="6" sm="12" xs="12">
                                 <Image className="img-fluid" src={AboutAman} alt="Aman-Dog" />
                             </Col>
-                            <Col xxl="6" md="12" xs="12">
+                          <Col xxl="6" md="6" sm="12" xs="12">
                                 <p>
                                   <span>If there's one thing you should know about me, it's that I <b>thrive on fun and adventure.</b> </span>
                                   <span>My heart belongs to the open road, and I find pure joy in <b>exploring new places, delving into their unique cultures,</b> all while cruising on my trusty bike. </span>
@@ -61,32 +61,32 @@ const About = () => {
             <section className="aman_riding_experience">
                 <Container>
                     <Row>
-                        <Col xxl="12" md="12" xs="12">
+                        <Col xxl="12" md="12" sm="12" xs="12">
                             <div className="aman_heading_experice">
                               <h4>Thanks for going the extra mile to get to know me!</h4>
                             </div>
                         </Col>
-                        <Col xxl="6" md="12" xs="12">
+                        <Col xxl="6" md="6" sm="12" xs="12">
                             <div className="AboutAmanImage">
                                 <Image className="img-fluid" src={AboutAmanImage1} alt="Image-1" />
                             </div>    
                         </Col>
-                      <Col xxl="6" md="12" xs="12">
+                      <Col xxl="6" md="6" sm="12" xs="12">
                             <div className="AboutAmanImage">
                                 <Image className="img-fluid" src={AboutAmanImage2} alt="Image-1" />
                             </div>    
                       </Col>
-                      <Col xxl="4" md="12" xs="12">
+                      <Col xxl="4" md="4" sm="6" xs="12">
                           <div className="AboutAmanImage">
                               <Image className="img-fluid" src={AboutAmanImage3} alt="Image-1" />
                           </div>
                       </Col>
-                      <Col xxl="4" md="12" xs="12">
+                      <Col xxl="4" md="4" sm="6" xs="12">
                           <div className="AboutAmanImage">
                               <Image className="img-fluid" src={AboutAmanImage4} alt="Image-1" />
                           </div>
                       </Col>
-                      <Col xxl="4" md="12" xs="12">
+                      <Col xxl="4" md="4" sm="6" xs="12">
                           <div className="AboutAmanImage">
                               <Image className="img-fluid" src={AboutAmanImage5} alt="Image-1" />
                           </div>

@@ -14,7 +14,7 @@ const Homepage = () => {
         <section className="aman-info">
             <Container>
                 <Row>
-                    <Col xxl="6" md="12" xs="12">
+                    <Col xxl="6" md="6" sm="12" xs="12">
                         <div className="aman-heading">
                             <h1>Aman Sharma</h1>
                             <h2>Product Designer</h2>
@@ -83,7 +83,7 @@ const Homepage = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col xxl="6" md="12" xs="12">
+                      <Col xxl="6" md="6" sm="12" xs="12">
                         <div className="aman-img">
                             <Image className="img-fluid" src={AmanPic} alt="aman-img"/>
                         </div>
@@ -99,7 +99,7 @@ const Homepage = () => {
                     <h4>Works.</h4>
                 </div>
                 <Row className="work-margin">
-                    <Col xxl="6" md="12" xs="12">
+                    <Col xxl="6" md="6" sm="12" xs="12">
                         <div className="work_1">
                             <h4>KiWE</h4>
                             <div className="work-tags">
@@ -156,14 +156,14 @@ const Homepage = () => {
                               </NavLink>
                         </div>
                     </Col>
-                    <Col xxl="6" md="12" xs="12">
+                    <Col xxl="6" md="6" sm="12" xs="12">
                         <div className="aman_work_1">
                             <Image className="img-fluid" src={Work1} alt="Work 1"/>
                         </div>
                     </Col>
                 </Row>
                   <Row className="work-margin">
-                      <Col xxl="6" md="12" xs="12">
+                      <Col xxl="6" md="6" sm="12" xs="12">
                           <div className="work_1">
                               <h4>Phantom</h4>
                               <div className="work-tags">
@@ -234,14 +234,14 @@ const Homepage = () => {
                               </NavLink>
                           </div>
                       </Col>
-                      <Col xxl="6" md="12" xs="12">
+                      <Col xxl="6" md="6" sm="12" xs="12">
                           <div className="aman_work_1">
                               <Image className="img-fluid" src={Work2} alt="Work 1" />
                           </div>
                       </Col>
                   </Row>
                   <Row className="work-margin">
-                      <Col xxl="6" md="12" xs="12">
+                      <Col xxl="6" md="6" sm="12" xs="12">
                           <div className="work_1">
                               <h4>Ed-tech Website</h4>
                               <div className="work-tags">
@@ -298,7 +298,7 @@ const Homepage = () => {
                               </NavLink>
                           </div>
                       </Col>
-                      <Col xxl="6" md="12" xs="12">
+                      <Col xxl="6" md="6" sm="12" xs="12">
                           <div className="aman_work_1">
                               <Image className="img-fluid" src={Work3} alt="Work 1" />
                           </div>
