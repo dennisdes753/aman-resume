@@ -9,7 +9,7 @@ import './header.scss'
 const Header = () => {
     return (
         <>
-            <section className="navbar-sec" style={{ backgroundImage: `url(${TopBanner})` }}>
+            <section className="navbar-sec">
                 <Container>
                     <Row>
                         <Col xxl="12" md="12" xs="12">
